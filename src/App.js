@@ -1,5 +1,11 @@
+import ToursList from './features/tours/tours-list/ToursList';
+
 function App() {
-    return <div className='App'>app</div>;
+    return (
+        <main className='App'>
+            <ToursList />
+        </main>
+    );
 }
 
 export default App;
